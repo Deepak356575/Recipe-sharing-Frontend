@@ -21,7 +21,7 @@ const ContactPage = () => {
 
                     <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">Email</h2>
                     <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
-                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@veggify.com</p>
+                    <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@Ozbourne.com</p>
                 </div>
 
                 <div>

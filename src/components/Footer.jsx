@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>
         <div className="text-teal-600">
-            <img src="/logo.svg" alt="" />
+            Ozbourne
         </div>
 
         <p className="mt-4 max-w-xs text-gray-500">
