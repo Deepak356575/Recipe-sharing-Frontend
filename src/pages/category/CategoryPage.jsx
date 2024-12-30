@@ -14,7 +14,7 @@ const CategoryPage = () => {
     const fetchCategoryData = async () => {
       setLoading(true);
       try {
-        const response = await axios.get(`http://localhost:5000/api/categories/${category}`);
+        const response = await axios.get(`https://recipe-sharing-backend-y27x.onrender.com/api/categories/${category}`);
         setItems(response.data);
         setLoading(false);
       } catch (err) {

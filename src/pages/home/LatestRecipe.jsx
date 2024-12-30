@@ -7,7 +7,7 @@ const LatestRecipe = () => {
 
     useEffect(() =>{
         const getLatesItems = async () => {
-            const response = await axios.get('http://localhost:5000/api/all-items');
+            const response = await axios.get('https://recipe-sharing-backend-y27x.onrender.com/api/all-items');
             setItems(response.data);
         };
         getLatesItems();
