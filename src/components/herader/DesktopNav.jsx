@@ -4,7 +4,7 @@ const DesktopNav = ({ menuItems, logo }) => {
   return (
     <div className="h-16 flex justify-between items-center px-6 lg:px-12">
       <a href="/">
-        <img src={logo} alt="flex site logo" />
+        Ozbourne
       </a>
 
       <ul className="flex gap-7 ">

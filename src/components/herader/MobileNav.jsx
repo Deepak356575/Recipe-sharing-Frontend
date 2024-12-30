@@ -8,7 +8,7 @@ const MobileNav = ({ menuItems, logo, onClose, onOpen, hideLeft }) => {
     <>
     <div className="h-16 flex justify-between items-center px-6 lg:px-12">
         <a href="/">
-          <img src={logo} alt="flex site logo" />
+          Ozbourne
         </a>
         <button className="border border-primary rounded" onClick={onOpen}>
         <HiOutlineBars3BottomRight className='w-7 h-6' />
